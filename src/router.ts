@@ -20,7 +20,6 @@ import { ListOrderController } from "./controllers/order/ListOrderController";
 import { DetailOrderController } from "./controllers/order/DetailOrderController";
 
 const router = Router();
-
 const upload = multer(uploadConfig.upload("./img"))
 
 router.get('/health', (req: Request, res: Response) => {
